@@ -1,1 +1,25 @@
 
+#header {
+    text-align: left;
+    text-decoration: underline;
+}
+li {
+    float: left;
+}
+.navbar2{
+    display: block;
+    padding: 10px;
+    background-color: rgb(243, 182, 102);
+}
+#navprojects{
+    float: right;
+}
+ul {
+    position: fixed;
+  top: 0;
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: (243, 182, 102);
+}
