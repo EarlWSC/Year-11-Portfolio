@@ -1,25 +1,33 @@
 
-#header {
+body {
+    margin: 0;
+}
+.header {
+    margin-left: 50px;
     text-align: left;
     text-decoration: underline;
 }
+.navbar {
+    margin-bottom: 100px;
+}
 li {
+    align-items: left;
     float: left;
 }
 .navbar2{
+    font-size: 50px;
+    text-decoration: none;
+    float: left; 
     display: block;
-    padding: 10px;
+    padding: 30px;
     background-color: rgb(243, 182, 102);
-}
-#navprojects{
-    float: right;
 }
 ul {
     position: fixed;
-  top: 0;
-  width: 100%;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: (243, 182, 102);
+    background-color: rgb(243, 182, 102);
 }
