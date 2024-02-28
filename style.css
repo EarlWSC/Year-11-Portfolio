@@ -1,37 +1,65 @@
-
+html {
+    height: 100%;
+}
 body {
+    height:100%;
     margin: 0;
+    background-image: linear-gradient(rgb(255, 152, 152), rgb(255, 98, 98));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'Kiwi Maru Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kiwi Maru Regular'), url('KiwiMaru-Regular.woff') format('woff');
+    }
+    
+@font-face {
+    font-family: 'Kiwi Maru Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kiwi Maru Light'), url('KiwiMaru-Light.woff') format('woff');
+    }
+    
+@font-face {
+    font-family: 'Kiwi Maru Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kiwi Maru Medium'), url('KiwiMaru-Medium.woff') format('woff');
+    }
+
+#projectdropdown {
+    margin-right: 30px;
+    font-size: 30px;
 }
 .header {
     margin-left: 50px;
+    font-size: 60px;
+    float:left;
     text-align: left;
-    text-decoration: underline;
+    font-family: "Kiwi Maru Medium";
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: white;
 }
 .navbar {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 li {
     align-items: left;
     float: left;
 }
 .navbar2{
-    text-shadow:   1px 0px #eee, 0px 1px #ccc,
-               2px 1px #eee, 1px 2px #ccc,
-               3px 2px #eee, 2px 3px #ccc,
-               4px 3px #eee, 3px 4px #ccc,
-               5px 4px #eee, 4px 5px #ccc,
-               6px 5px #eee, 5px 6px #ccc,
-               7px 6px #eee, 6px 7px #ccc,
-               8px 7px #eee, 7px 8px #ccc,
-               8px 8px #eee;
-    font-size: 50px;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: white;
+    margin-left: 20px;
+    font-size: 30px;
     text-decoration: none;
-font-weight: bold, white;
-    font-family: sans-serif;
+    font-family: "Kiwi Maru Medium";
     color: rgb(0, 0, 0);
     float: left; 
     display: block;
-    padding: 30px;
+    padding: 10px;
     background-color: rgb(243, 182, 102);
 }
 ul {
@@ -43,3 +71,60 @@ ul {
     padding: 0;
     background-color: rgb(243, 182, 102);
 }
+#JeskoAttack{
+    margin-right:50px;
+    float:right;
+    width:40%;
+}
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
