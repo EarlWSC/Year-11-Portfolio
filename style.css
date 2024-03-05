@@ -177,3 +177,25 @@ ul {
     float: left;
   background-color: rgb(238, 105, 105);
 }
+.requirements {
+  font-size: 30px;
+    font-family: "Kiwi Maru Regular";
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: white;
+    margin-left: 30px;
+    width: 90%;
+    height: 80%;
+    float: left;
+  background-color: rgb(224, 64, 64);
+}
+.implications {
+  font-size: 30px;
+    font-family: "Kiwi Maru Regular";
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: white;
+    margin-left: 30px;
+    width: 90%;
+    height: 80%;
+    float: left;
+  background-color: rgb(224, 64, 64);
+}
