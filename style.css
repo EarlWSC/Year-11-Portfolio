@@ -33,6 +33,9 @@ body {
     margin-right: 30px;
     font-size: 30px;
 }
+a {
+  text-decoration: none;
+}
 .header {
     margin-left: 50px;
     font-size: 60px;
@@ -151,10 +154,6 @@ ul {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.breakline {
-  background-color: white;
-  margin-bottom:1000px;
-}
 .overview {
   font-size: 30px;
     font-family: "Kiwi Maru Regular";
@@ -163,8 +162,9 @@ ul {
     margin-left: 30px;
     width: 90%;
     height: 150%;
-    float: left;
   background-color: rgb(197, 73, 73);
+  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .endusers {
   font-size: 30px;
@@ -174,7 +174,7 @@ ul {
     margin-left: 30px;
     width: 90%;
     height: 80%;
-    float: left;
+    margin-bottom: 100px;
   background-color: rgb(238, 105, 105);
 }
 .requirements {
@@ -185,7 +185,7 @@ ul {
     margin-left: 30px;
     width: 90%;
     height: 80%;
-    float: left;
+    margin-bottom: 100px;
   background-color: rgb(224, 64, 64);
 }
 .implications {
@@ -195,7 +195,24 @@ ul {
     -webkit-text-stroke-color: white;
     margin-left: 30px;
     width: 90%;
-    height: 80%;
-    float: left;
+    height: 500px;
+    margin-bottom: 100px;
   background-color: rgb(224, 64, 64);
+}
+.development {
+  font-size: 30px;
+  text-decoration: none;
+    font-family: "Kiwi Maru Regular";
+    -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: white;
+    margin-left: 30px;
+    width: 50%;
+    height: 150%;
+    float: left;
+    margin-bottom: 400px;
+  background-color: rgb(224, 114, 114)
+}
+#developmenttext {
+  -webkit-text-stroke-width: 0.05px;
+    -webkit-text-stroke-color: white;
 }
