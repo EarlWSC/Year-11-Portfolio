@@ -258,7 +258,3 @@ margin-left: 30px;
   -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: white;
 }
-.task img {
-  display: inline-block;
-  max-width: 30%;
-}
