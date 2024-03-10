@@ -4,10 +4,24 @@ html {
 body {
     height:100%;
     margin: 0;
-    background-image: url(PorscheGt3rs.jpg);
+    background-image: url(Porsche-911-992-GT3RS-gif.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+#myVideo {
+  position: fixed;
+  background-attachment: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -2;
+}
+#spacer {
+  width: 200px;
+  height: 300px;
+  margin-right:0px;
 }
 @font-face {
     font-family: 'Kiwi Maru Regular';
@@ -61,7 +75,7 @@ a {
     color: rgb(0, 0, 0); 
     display: block;
     padding: 10px;
-    background-color: rgba(243, 182, 102, 0.4);
+    background-color: rgba(41, 37, 27, 0.226);
 }
 ul {
     position: fixed;
@@ -70,7 +84,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(243, 182, 102,0.5);
+    background-color: rgba(45, 71, 44, 0.226);
 }
 #JeskoAttack{
     margin-right:50px;
@@ -84,8 +98,8 @@ ul {
   }
 
   .dropdown .dropbtn {
-    background-color: rgba(243, 182, 102, 0.5);
-    outline: rgba(243, 182, 102, 0.5);;
+    background-color: rgba(169, 199, 130, 0.418);
+    outline: rgba(152, 204, 85, 0.418);
     margin-top: 10px;
     -webkit-text-stroke-width: 0.75px;
     -webkit-text-stroke-color: white;
@@ -96,13 +110,14 @@ ul {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(243, 182, 102, 0.5);
+    background-color: rgba(221, 255, 190, 0.288);
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(253, 233, 206, 0.589);
+    background-blend-mode: color;
+    background-color: rgba(79, 122, 38, 0.288);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -120,7 +135,7 @@ ul {
   }
   
   .dropdown-content a:hover {
-    background-color: rgba(252, 80, 80, 0.5);
+    background-color: rgba(215, 228, 99, 0.288);
   }
   
   .dropdown:hover .dropdown-content {
@@ -132,7 +147,7 @@ ul {
     width:20%; 
     font-size: 30px;
     font-family: "Kiwi Maru Regular";
-    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: white;
     margin-right:30px;
     width: 700px;
@@ -140,7 +155,9 @@ ul {
 }
 
 .vertical-menu a {
-    background-color: rgba(252, 80, 80, 0.5);
+    background-color: rgba(169, 252, 158, 0.281);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
     color: black;
     display: block;
     padding: 12px;
@@ -148,114 +165,111 @@ ul {
 }
 
 .vertical-menu a:hover {
-    background-color: rgba(252, 80, 80, 0.5);
+    background-color: rgba(104, 161, 51, 0.295);
 }
 
 .vertical-menu a.active {
-    color: rgba(255, 145, 145, 0.5);
+    color: rgba(104, 161, 51, 0.5);
 }
 #menu-overview{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+#text{
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Kiwi Maru Regular";
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: white;
+}
 .overview { 
   float:left;
+  clear: right;
   width:20%; 
   margin-top: 40px;
-margin-bottom: 20px;
-min-height: 350px;
-  font-size: 30px;
-    font-family: "Kiwi Maru Regular";
-    -webkit-text-stroke-width: 0.05px;
-    -webkit-text-stroke-color: white;
-    margin-left: 30px;
-    width: 50%;
-    height: 150%;
-  background-color: rgba(245, 122, 122, 0.5);
+  margin-bottom: 20px;
+  min-height: 350px;
+  margin-left: 30px;
+  width: 50%;
+  height: 150%;
+  background-blend-mode: lighten;
+  background-color: rgba(169, 252, 158, 0.363);
   margin-bottom: 100px;
   padding-bottom: 100px;
 }
 .endusers {
+  clear: right;
   float:left;
   margin-right: 300px;
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 30px;
-  font-size: 30px;
-    font-family: "Kiwi Maru Regular";
-    -webkit-text-stroke-width: 0.05px;
-    -webkit-text-stroke-color: white;
-    width: 50%;
-    height: 20%;
-    margin-bottom: 100px;
-  background-color: rgba(253, 135, 135, 0.5);
+  width: 50%;
+  height: 20%;
+  margin-bottom: 100px;
+  background-color: rgba(169, 252, 158, 0.603);
 }
 .requirements {
   float:left;
-  font-size: 30px;
-    font-family: "Kiwi Maru Regular";
-    -webkit-text-stroke-width: 0.05px;
-    -webkit-text-stroke-color: white;
-margin-left: 30px;
-    width: 40%;
-    height: 200%;
-    margin-bottom: 100px;
-  background-color: rgba(253, 135, 135, 0.5);
+  margin-left: 30px;
+  width: 40%;
+  height: 200%;
+  margin-bottom: 100px;
+  background-color: rgba(96, 143, 90, 0.795);
 }
 .implications {
   float:right;
-  font-size: 30px;
-    font-family: "Kiwi Maru Regular";
-    -webkit-text-stroke-width: 0.05px;
-    -webkit-text-stroke-color: white;
-    margin-right: 30px;
-    width: 40%;
-    height: 150%;
-    margin-bottom: 100px;
-  background-color: rgba(253, 135, 135, 0.5);
+  margin-right: 30px;
+  width: 40%;
+  height: 150%;
+  margin-bottom: 100px;
+  background-color: rgba(96, 143, 90, 0.795);
 }
 .development {
-  float:left;
-  font-size: 30px;
-  text-decoration: none;
+  text-align: center;
+  margin-left:400px;
+  font-size: 50px;
+    text-decoration: none;
     font-family: "Kiwi Maru Regular";
     -webkit-text-stroke-width: 0.05px;
     -webkit-text-stroke-color: white;
-    margin-left: 30px;
-    width: 50%;
-    height: 150%;
-    margin-bottom: 400px;
-  background-color: rgba(243, 168, 168, 0.63)
+  clear: both;
+  width: 50%;
+  height: 150%;
+  background-color: rgba(169, 252, 158, 0.466);
 }
-#developmenttext {
-  -webkit-text-stroke-width: 0.05px;
-    -webkit-text-stroke-color: white;
-}
+
+
+
+
+
 
 .task {
   display:block;
-  background-color:rgb(245, 148, 148);
-  border-color:rgb(180, 39, 39);
+  background-color:rgba(169, 252, 158, 0.363);
+  border-color:rgba(12, 80, 4, 0.534);
   margin-left: 180px;
   margin-right: 180px;
   margin-top:400px;
-  float: left;
   min-height: 80%;
+  float:left;
+}
+#task-right{
+  float: right;
 }
 .task h1{
   text-align: center;
   font-size: 70px;
-  font-family: "Kiwi Maru Medium";
-  -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
 }
-.task p {
-  display:inline-block;
-  margin-left: 50px;
+.task p{
+  margin: 0 1.5%;
+  width: 50%;
   margin-top: 50px;
-  background-color:rgb(250, 110, 110);
+  background-color:rgba(12, 80, 4, 0.534);
   font-size: 40px;
   font-family: "Kiwi Maru Medium";
-  -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: white;
+}
+.task img{
+  margin: 0 1.5%;
+  width: 30%;
 }
