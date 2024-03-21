@@ -253,6 +253,7 @@ ul {
   margin-right: 180px;
   margin-top:400px;
   min-height: 80%;
+  min-width: 80%;
   float:left;
 }
 #task-right{
@@ -264,13 +265,23 @@ ul {
 }
 .task p{
   margin: 0 1.5%;
-  width: 50%;
-  margin-top: 50px;
+  width: 60%;
+  margin-top: 30px;
   background-color:rgba(247, 247, 247, 0.534);
-  font-size: 40px;
+  font-size:30px;
   font-family: "Kiwi Maru Medium";
 }
-.task img{
+.task h3{
   margin: 0 1.5%;
+  width: 80%;
+  background-color:rgba(247, 247, 247, 0.534);
+  font-size: 40px;
+
+}
+.task img{
+  margin-right:50px;
+    float:right;
+  margin: 0 1.5%;
+  max-height: 80%;
   width: 30%;
 }
